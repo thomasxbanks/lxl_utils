@@ -1,9 +1,9 @@
 /**
  * @constant {Function} - Determines if the current browser is Internet Explorer
- * @example - if (!detectIE()) { doGoodBrowserThing() }
+ * @example - if (!isIE()) { doGoodBrowserThing() }
  * @returns {Boolean} - `true` if Internet Explorer is detected in any way, otherwise `false`
  */
-const detectIE = () =>
+const isIE = () =>
 (!(window.ActiveXObject) && "ActiveXObject" in window) ||
 (!!window.MSInputMethodContext && !!document.documentMode) ||
 (navigator.appName === 'Microsoft Internet Explorer') ||
@@ -11,4 +11,4 @@ const detectIE = () =>
 ? true 
 : false
 
-module.exports = detectIE
+module.exports = isIE
