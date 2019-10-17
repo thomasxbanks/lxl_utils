@@ -4,8 +4,7 @@
   * @example
   * button.addEventListener('click', e => {
   *   const { target } = e
-  *   window.motionEvent = whichMotionEvent(target)
-  *   target.addEventListener(window.motionEvent, functionToRunWhenMotionFinished, { once: true })
+  *   target.addEventListener(whichMotionEvent(target), functionToRunOnMotionComplete, { once: true })
   *   // Code that triggers the css motion, eg;
   *   target.dataset.active = true
   * })
