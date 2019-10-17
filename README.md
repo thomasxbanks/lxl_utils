@@ -30,12 +30,13 @@
 - Calculate pixels from points
 - Currency
 - Delay
-- Detect IE
 - Get css value
 - Get key by value
 - Get position
 - Has trailing slash
 - Initial capital letter
+- Is double tap/click
+- Is IE
 - Is in viewport
 - Is touch device
 - Lock scroll
@@ -60,3 +61,4 @@
 - Toggle element active state
 - Toggle scroll lock
 - Unlock scroll
+- Which motion event
