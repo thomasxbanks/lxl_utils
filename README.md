@@ -28,6 +28,7 @@
 ## Utils
 
 - Calculate pixels from points
+- Copy string to clipboard
 - Currency
 - Delay
 - Get css value
