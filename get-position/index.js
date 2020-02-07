@@ -4,15 +4,15 @@
  * @example - getPosition(element).x
  * @returns {Object} - The x and y co-ordinates
  */
-const getPosition = el => {
-  var xPos = 0;
-  var yPos = 0;
+const getPosition = (el) => {
+  let xPos = 0;
+  let yPos = 0;
 
   while (el) {
-    if (el.tagName == "BODY") {
+    if (el.tagName == 'BODY') {
       // deal with browser quirks with body/window/document and page scroll
-      var xScroll = el.scrollLeft || document.documentElement.scrollLeft;
-      var yScroll = el.scrollTop || document.documentElement.scrollTop;
+      const xScroll = el.scrollLeft || document.documentElement.scrollLeft;
+      const yScroll = el.scrollTop || document.documentElement.scrollTop;
 
       xPos += (el.offsetLeft - xScroll + el.clientLeft);
       yPos += (el.offsetTop - yScroll + el.clientTop);
@@ -26,8 +26,8 @@ const getPosition = el => {
   }
   return {
     x: xPos,
-    y: yPos
+    y: yPos,
   };
-}
+};
 
-module.exports = getPosition
+module.exports = getPosition;

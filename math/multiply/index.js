@@ -5,6 +5,6 @@
  * @example multiply(1, 2) = 2
  * @returns {Number} - The result of the equation
  */
-const multiply = (a, b) => a*b
+const multiply = (a, b) => a * b;
 
-module.exports = multiply
+module.exports = multiply;

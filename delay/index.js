@@ -4,6 +4,6 @@
  * @example delay(2).then(() => nextFunction())
  * @returns {Promise} - `resolve` after `delaySeconds`
  */
-const delay = delaySeconds => new Promise(resolve => setTimeout(resolve, delaySeconds * 1000))
+const delay = (delaySeconds) => new Promise((resolve) => setTimeout(resolve, delaySeconds * 1000));
 
-module.exports = delay
+module.exports = delay;

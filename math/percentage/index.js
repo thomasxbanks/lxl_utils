@@ -5,6 +5,6 @@
  * @example percentage(1, 2) = 50
  * @returns {Number} - The result of the equation
  */
-const percentage = (a, b) => a*100 / b
+const percentage = (a, b) => a * 100 / b;
 
-module.exports = percentage
+module.exports = percentage;

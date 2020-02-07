@@ -5,6 +5,6 @@
  * @example add(1, 2) = 3
  * @returns {Number} - The result of the equation
  */
-const add = (a, b) => a+b
+const add = (a, b) => a + b;
 
-module.exports = add
+module.exports = add;

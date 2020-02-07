@@ -3,8 +3,8 @@
  * @param {Node} element - The given element
  */
 
- const scrollToBottom = element => {
-  element.current.scrollTop = element.current.scrollHeight
-}
+const scrollToBottom = (element) => {
+  element.current.scrollTop = element.current.scrollHeight;
+};
 
-module.exports = scrollToBottom
+module.exports = scrollToBottom;

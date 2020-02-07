@@ -4,6 +4,6 @@
  * @example numberizeValue('123.456px') = 123.456
  * @returns {Number} - The given string as a float integer with units removed
  */
-const numberizeValue = input => parseFloat(input.slice(0, input.length - input.match(/[a-zA-Z%]/g).length))
+const numberizeValue = (input) => parseFloat(input.slice(0, input.length - input.match(/[a-zA-Z%]/g).length));
 
-module.exports = numberizeValue
+module.exports = numberizeValue;

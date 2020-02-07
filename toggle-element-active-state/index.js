@@ -3,8 +3,8 @@
  * @param {Node} element - The given element
  */
 
- const toggleElementActiveState = element => {
-  element.dataset.active = !(element.dataset.active === 'true')
-}
+const toggleElementActiveState = (element) => {
+  element.dataset.active = !(element.dataset.active === 'true');
+};
 
-module.exports = toggleElementActiveState
+module.exports = toggleElementActiveState;

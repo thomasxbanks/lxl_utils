@@ -3,7 +3,7 @@
  */
 
 const unlockScroll = () => {
-  document.documentElement.style.overflow = ``
-}
+  document.documentElement.style.overflow = '';
+};
 
-module.exports = unlockScroll
+module.exports = unlockScroll;

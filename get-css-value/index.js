@@ -7,4 +7,4 @@
  */
 const getCssValue = (element, property) => window.getComputedStyle(element).getPropertyValue(property);
 
-module.exports = getCssValue
+module.exports = getCssValue;

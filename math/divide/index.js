@@ -5,6 +5,6 @@
  * @example divide(1, 2) = 0.5
  * @returns {Number} - The result of the equation
  */
-const divide = (a, b) => a/b
+const divide = (a, b) => a / b;
 
-module.exports = divide
+module.exports = divide;

@@ -5,8 +5,6 @@
  * @example `randomNumber(1,10) === 7`
  * @returns {Number} - Whole number
  */
-const randomNumber = (min = 0, max = 100) => {
-  return ~~(Math.floor(Math.random() * max) + min)
-}
+const randomNumber = (min = 0, max = 100) => ~~(Math.floor(Math.random() * max) + min);
 
-module.exports = randomNumber
+module.exports = randomNumber;

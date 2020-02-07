@@ -4,6 +4,6 @@
  * @param {Any} value - The value to search for
  * @returns {String} - The found key
  */
-const getKeyByValue = (obj, value) => Object.keys(obj).find(key => obj[key] === value)
+const getKeyByValue = (obj, value) => Object.keys(obj).find((key) => obj[key] === value);
 
-module.exports = getKeyByValue
+module.exports = getKeyByValue;

@@ -12,4 +12,4 @@ const isDoubleTap = (duration = 500) => {
   return isDoubleTap;
 };
 
-module.exports = isDoubleTap
+module.exports = isDoubleTap;

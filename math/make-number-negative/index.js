@@ -4,6 +4,6 @@
  * @example - makeNumberNegative(5) = -5
  * @returns - The negative version of the given number
  */
-const makeNumberNegative = input => -Math.abs(input)
+const makeNumberNegative = (input) => -Math.abs(input);
 
-module.exports = makeNumberNegative
+module.exports = makeNumberNegative;

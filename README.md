@@ -39,6 +39,7 @@
 - Is double tap/click
 - Is IE
 - Is in viewport
+- Is Letter
 - Is touch device
 - Lock scroll
 - Make element _is active_

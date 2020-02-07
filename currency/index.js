@@ -6,17 +6,17 @@
  * @returns {String} - The formatted display value
  */
 
-const currency = (value, unit='£') => {
-  value = value.toFixed(2)
+const currency = (value, unit = '£') => {
+  value = value.toFixed(2);
   value += '';
   x = value.split('.');
   x1 = x[0];
-  x2 = x.length > 1 ? '.' + x[1] : '';
-  var rgx = /(\d+)(\d{3})/;
+  x2 = x.length > 1 ? `.${x[1]}` : '';
+  const rgx = /(\d+)(\d{3})/;
   while (rgx.test(x1)) {
     x1 = x1.replace(rgx, '$1' + ',' + '$2');
   }
-  return `${ unit }${ (x1 + x2) }`
-}
+  return `${unit}${(x1 + x2)}`;
+};
 
-module.exports = currency
+module.exports = currency;

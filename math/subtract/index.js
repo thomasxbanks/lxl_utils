@@ -5,6 +5,6 @@
  * @example subtract(1, 2) = -1
  * @returns {Number} - The result of the equation
  */
-const subtract = (a, b) => a-b
+const subtract = (a, b) => a - b;
 
-module.exports = subtract
+module.exports = subtract;

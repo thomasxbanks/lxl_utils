@@ -4,9 +4,9 @@
  * @param {Number} size - The size to pad with zero until
  */
 const padWithZero = (number, size) => {
-  var s = number+"";
-  while (s.length < size) s = "0" + s;
+  let s = `${number}`;
+  while (s.length < size) s = `0${s}`;
   return s;
-}
+};
 
-module.exports = padWithZero
+module.exports = padWithZero;
