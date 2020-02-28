@@ -42,8 +42,12 @@
 - Is Letter
 - Is touch device
 - Lock scroll
+- Make button _disabled_
+- Make button _enabled_
 - Make element _is active_
 - Make element _not active_
+- Make element _is hidden_
+- Make element _not hidden_
 - Math
   - Add
   - Subtract
@@ -56,6 +60,7 @@
 - Random number
 - Salt
 - Scroll to bottom
+- Slugify
 - Sort
   - Ascending
   - Descending
