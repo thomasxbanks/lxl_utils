@@ -1,3 +1,5 @@
+JavaScript utility functions to cover a variety of frequently used tasks.
+
 # Utility Functions
 
 ## Installation
@@ -12,18 +14,22 @@
   const formattedTitle = titleCase('this is a title') // This Is A Title
 ```
 
-```js
-  const getKeyByValue = require('lxl.utils/get-key-by-value')
-  const person = { name: 'Thom', age: 40 }
-  console.log(getKeyByValue(person, 'Thom')) // 'name'
-```
-
 ```jsx
   import salt from 'lxl.utils/salt'
   return(
     <li key={ salt() }>This is a list item</li>
   )
 ```
+
+### From version 1.2
+
+```jsx
+  import { salt } from 'lxl.utils'
+  return(
+    <li key={ salt() }>This is a list item</li>
+  )
+```
+
 
 ## Utils
 
@@ -42,8 +48,8 @@
 - Is Letter
 - Is touch device
 - Lock scroll
-- Make button _disabled_
-- Make button _enabled_
+- Make element _disabled_
+- Make element _enabled_
 - Make element _is active_
 - Make element _not active_
 - Make element _is hidden_
